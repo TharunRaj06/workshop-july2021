@@ -1,0 +1,56 @@
+/* #background {
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+.main {
+  background-image: url(./images/background2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card1 {
+  background: rgba(225, 225, 225, 0.212);
+  height: 500px;
+  width: 300px;
+  z-index: 1000;
+  /* filter: blur(2px); */
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+}
+#search-bar {
+  width: 250px;
+  height: 40px;
+  margin-top: 20%;
+  position: relative;
+  z-index: 1000;
+}
+#search-bar input:focus {
+  border: 1px;
+  box-shadow: none;
+  appearance: none;
+  outline: none;
+  background-color: white;
+  font-size: 102px;
+  color: black;
+}
+
+#submit {
+  margin-left: 18%;
+  margin-top: 40%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  cursor: pointer;
+}
+
+h2 {
+  color: white;
+  font-size: 1.2em;
+  z-index: 1000;
+  margin-top: 60%;
+}
